@@ -1,0 +1,29 @@
+{
+  "name": "discordnodebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "git pull && npm install && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDemonLord333/discordnodebot.git"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "helmet": "^7.1.0",
+    "winston": "^3.11.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDemonLord333/discordnodebot/issues"
+  },
+  "homepage": "https://github.com/TheDemonLord333/discordnodebot#readme",
+  "description": ""
+}
